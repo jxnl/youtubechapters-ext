@@ -6,7 +6,7 @@ YouTube Summarizer is a Chrome extension that helps you quickly generate a summa
 
 - Adds a button to the Chrome toolbar, accessible when viewing a YouTube video.
 - One-click to open a new tab with a summary of the current YouTube video.
-- Automatically generates the summary using the magic URL: `https://magic.jxnl.com/youtube?v=<videoId>`.
+- Automatically generates the summary using the magic URL: `https://magic.jxnl.co/youtube?v=<videoId>`.
 
 ## Installation
 
@@ -22,7 +22,7 @@ YouTube Summarizer is a Chrome extension that helps you quickly generate a summa
 
 1. Visit a YouTube video page, such as `https://www.youtube.com/watch?v=abcdefghijk`.
 2. Click the YouTube Summarizer button in your Chrome toolbar.
-3. A new tab will open with the magic URL, e.g., `https://magic.jxnl.com/youtube?v=abcdefghijk`.
+3. A new tab will open with the magic URL, e.g., `https://magic.jxnl.co/youtube?v=abcdefghijk`.
 4. View the generated summary of the YouTube video.
 
 ## Contributing
