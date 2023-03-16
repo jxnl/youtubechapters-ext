@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Magic",
+  "version": "1.0",
+  "description": "Opens a magic URL for the current YouTube video to generate a summary of the content",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
+
