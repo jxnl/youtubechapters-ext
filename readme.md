@@ -2,6 +2,21 @@
 
 YouTube Summarizer is a Chrome extension that helps you quickly generate a summary of a YouTube video using ChatGPT. It'll take you to by youtube sumamrization page. The summary provides a overview of the video's content, allowing you to understand the main points without watching the entire video. You can copy the summary, copy only the chapters (if you leave it as a comment you'll get links), and you can share the summary link as well.
 
+## Also! If you want to use your own openai key call this for free.
+
+```sh 
+curl --no-buffer -X 'POST' \
+  'https://youtube-markdown.fly.dev/youtube_markdown'\
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer (openai-api-key)' \
+  -d '{
+  "use_cache": false,
+  "url": "https://www.youtube.com/watch?v=QmOF0crdyRU&t=2s",
+  "use_sse": false 
+}'
+```
+
 ## Features
 
 - Adds a button to the Chrome toolbar, accessible when viewing a YouTube video.
