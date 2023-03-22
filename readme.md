@@ -1,4 +1,4 @@
-# YouTube Summarizer
+# YouTube Summarizer powered by [Magic Text](https://github.com/jxnl/magic-text/)
 
 YouTube Summarizer is a Chrome extension that helps you quickly generate a summary of a YouTube video using ChatGPT. It'll take you to by youtube sumamrization page. The summary provides a overview of the video's content, allowing you to understand the main points without watching the entire video. You can copy the summary, copy only the chapters (if you leave it as a comment you'll get links), and you can share the summary link as well.
 
