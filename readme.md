@@ -25,6 +25,17 @@ curl --no-buffer -X 'POST' \
 
 ## Installation
 
+### Bundle Installation (Recommended)
+#### Chromium based browsers:
+1. Navigate to `chrome://extensions`
+2. Enable Developer Mode
+3. Drag the correspondant browser extension into the window
+#### Firefox
+1. Navigate to about://debugging
+2. click on This Firefox
+3. click on Load Temporary Add-on and then select .zip file
+
+
 ### Manual Installation 
 
 1. Clone or download this repository to your local machine.
