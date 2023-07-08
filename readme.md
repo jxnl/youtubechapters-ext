@@ -1,6 +1,6 @@
-# YouTube Summarizer powered by [Magic Text](https://github.com/jxnl/magic-text/)
+# [Youtube Chapters Chrome Extension](https://youtubechapters.app)
 
-YouTube Summarizer is a Chrome extension that helps you quickly generate a summary of a YouTube video using ChatGPT. It'll take you to by youtube sumamrization page. The summary provides a overview of the video's content, allowing you to understand the main points without watching the entire video. You can copy the summary, copy only the chapters (if you leave it as a comment you'll get links), and you can share the summary link as well.
+[Youtubechapters.app](https://youtubechapters.app) is used by thousands of people every month, this repo contains a Chrome extension that helps you quickly generate a summary. It'll take you to by youtube chapters page. The summary provides a overview of the video's content, allowing you to understand the main points without watching the entire video. You can copy the summary, copy only the chapters (if you leave it as a comment you'll get links), and you can share the summary link as well.
 
 ## Also! If you want to use your own openai key call this for free.
 
@@ -35,7 +35,7 @@ curl --no-buffer -X 'POST' \
 
 ## Usage
 
-1. Visit a YouTube video page, such as `https://www.youtube.co/watch?v=abcdefghijk`.
+1. Visit a YouTube video page, such as `https://www.youtube.com/watch?v=abcdefghijk`.
 2. Click the YouTube Summarizer button in your Chrome toolbar.
 3. A new tab will open with the magic URL, e.g., `https://magic.jxnl.co/youtube?v=abcdefghijk`.
 4. View the generated summary of the YouTube video.
